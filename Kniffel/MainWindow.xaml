@@ -1,0 +1,141 @@
+﻿<Window x:Class="Kniffel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kniffel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="1100"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid Background="green" Height="450" Width="800" HorizontalAlignment="Right">
+            <Border BorderThickness="45" BorderBrush="#752e06">
+                <Grid>
+                    <Border BorderBrush="black" BorderThickness="4">
+                        <Grid Margin="-20">
+                            <Border BorderBrush="black" BorderThickness="5">
+                                <Grid>
+                                    <Grid>
+                                        <Button x:Name="btn_startgame" Width="150" Height="45" Content="Start Game" Click="Start_Game" Visibility="Visible"/>
+                                    </Grid>
+                                    <Grid x:Name="div_gamepad" Visibility="Hidden">
+                                        <Button x:Name="btn_würfel1" Width="80" Height="80" Background="green" HorizontalAlignment="Left" Margin="30,0,0,0" Click="storewürfel1">
+                                            <Grid>
+                                                <Image x:Name="img_main_würfel1p1" Source="/Material/würfel1.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel1p2" Source="/Material/würfel2.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel1p3" Source="/Material/würfel3.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel1p4" Source="/Material/würfel4.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel1p5" Source="/Material/würfel5.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel1p6" Source="/Material/würfel6.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                            </Grid>
+                                        </Button>
+                                        <Button x:Name="btn_würfel2" Width="80" Height="80" Background="green" HorizontalAlignment="Left" Margin="130,0,0,0" Click="storewürfel2">
+                                            <Grid>
+                                                <Image x:Name="img_main_würfel2p1" Source="/Material/würfel1.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel2p2" Source="/Material/würfel2.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel2p3" Source="/Material/würfel3.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel2p4" Source="/Material/würfel4.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel2p5" Source="/Material/würfel5.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel2p6" Source="/Material/würfel6.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                            </Grid>
+                                        </Button>
+                                        <Button x:Name="btn_würfel3" Width="80" Height="80" HorizontalAlignment="left" Margin="230,0,0,0" Background="green" Click="storewürfel3">
+                                            <Grid>
+                                                <Image x:Name="img_main_würfel3p1" Source="/Material/würfel1.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel3p2" Source="/Material/würfel2.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel3p3" Source="/Material/würfel3.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel3p4" Source="/Material/würfel4.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel3p5" Source="/Material/würfel5.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel3p6" Source="/Material/würfel6.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                            </Grid>
+                                        </Button>
+
+                                        <Button x:Name="btn_würfel4" Width="80" Height="80" Background="green" HorizontalAlignment="Left" Margin="330,0,0,0" Click="storewürfel4">
+                                            <Grid>
+                                                <Image x:Name="img_main_würfel4p1" Source="/Material/würfel1.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel4p2" Source="/Material/würfel2.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel4p3" Source="/Material/würfel3.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel4p4" Source="/Material/würfel4.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel4p5" Source="/Material/würfel5.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel4p6" Source="/Material/würfel6.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                            </Grid>
+                                        </Button>
+
+                                        <Button x:Name="btn_würfel5" Height="80" Width="80" Background="green" HorizontalAlignment="left" Margin="430,0,0,0" Click="storewürfel5">
+                                            <Grid>
+                                                <Image x:Name="img_main_würfel5p1" Source="/Material/würfel1.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel5p2" Source="/Material/würfel2.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel5p3" Source="/Material/würfel3.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel5p4" Source="/Material/würfel4.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel5p5" Source="/Material/würfel5.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                                <Image x:Name="img_main_würfel5p6" Source="/Material/würfel6.png" Width="80" Height="80" VerticalAlignment="center" HorizontalAlignment="left" Margin="0,0,0,0" Visibility="Hidden"/>
+                                            </Grid>
+                                        </Button>
+
+                                        <Button Background="green" Width="200" Height="200" Margin="0,0,20,0" VerticalAlignment="center" HorizontalAlignment="right" Click="Start_würfeln">
+                                            <Image x:Name="btn_würfeln" Source="/Material/becher.png" Visibility="Visible"></Image>
+                                        </Button>
+                                    </Grid>
+                                    <Grid>
+                                        <Image x:Name="img_stored_würfel1p1" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel1.png" Visibility="Hidden" Margin="30,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel1p2" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel2.png" Visibility="Hidden" Margin="30,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel1p3" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel3.png" Visibility="Hidden" Margin="30,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel1p4" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel4.png" Visibility="Hidden" Margin="30,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel1p5" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel5.png" Visibility="Hidden" Margin="30,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel1p6" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel6.png" Visibility="Hidden" Margin="30,30,0,0"/>
+
+                                        <Image x:Name="img_stored_würfel2p1" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel1.png" Visibility="Hidden" Margin="130,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel2p2" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel2.png" Visibility="Hidden" Margin="130,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel2p3" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel3.png" Visibility="Hidden" Margin="130,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel2p4" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel4.png" Visibility="Hidden" Margin="130,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel2p5" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel5.png" Visibility="Hidden" Margin="130,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel2p6" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel6.png" Visibility="Hidden" Margin="130,30,0,0"/>
+
+                                        <Image x:Name="img_stored_würfel3p1" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel1.png" Visibility="Hidden" Margin="230,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel3p2" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel2.png" Visibility="Hidden" Margin="230,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel3p3" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel3.png" Visibility="Hidden" Margin="230,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel3p4" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel4.png" Visibility="Hidden" Margin="230,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel3p5" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel5.png" Visibility="Hidden" Margin="230,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel3p6" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel6.png" Visibility="Hidden" Margin="230,30,0,0"/>
+
+
+                                        <Image x:Name="img_stored_würfel4p1" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel1.png" Visibility="Hidden" Margin="330,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel4p2" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel2.png" Visibility="Hidden" Margin="330,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel4p3" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel3.png" Visibility="Hidden" Margin="330,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel4p4" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel4.png" Visibility="Hidden" Margin="330,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel4p5" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel5.png" Visibility="Hidden" Margin="330,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel4p6" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel6.png" Visibility="Hidden" Margin="330,30,0,0"/>
+
+
+                                        <Image x:Name="img_stored_würfel5p1" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel1.png" Visibility="Hidden" Margin="430,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel5p2" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel2.png" Visibility="Hidden" Margin="430,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel5p3" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel3.png" Visibility="Hidden" Margin="430,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel5p4" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel4.png" Visibility="Hidden" Margin="430,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel5p5" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel5.png" Visibility="Hidden" Margin="430,30,0,0"/>
+                                        <Image x:Name="img_stored_würfel5p6" Width="80" Height="80" HorizontalAlignment="left" VerticalAlignment="top" Source="/Material/würfel6.png" Visibility="Hidden" Margin="430,30,0,0"/>
+
+                                        <Grid Background="#752e06" Height="50" Width="150" VerticalAlignment="top" HorizontalAlignment="right" Margin="0,13,13,0">
+                                            <Border BorderBrush="Black" BorderThickness="2">
+                                                <Grid>
+                                                    <Label x:Name="lab_player1view" Content="Player 1" FontSize="30" HorizontalAlignment="center" Margin="0,-15,0,0" Visibility="Collapsed"/>
+                                                    <Label x:Name="lab_player2view" Content="Player 2" FontSize="30" HorizontalAlignment="center" Margin="0,-15,0,0" Visibility="Collapsed"/>
+                                                    <Label x:Name="lab_3trys" Content="Noch 3 mal Würfeln" VerticalAlignment="bottom" HorizontalAlignment="center" FontSize="15" Margin="0,19,0,0" Visibility="Hidden"/>
+                                                    <Label x:Name="lab_2trys" Content="Noch 2 mal Würfeln" VerticalAlignment="bottom" HorizontalAlignment="center" FontSize="15" Margin="0,19,0,0" Visibility="Hidden"/>
+                                                    <Label x:Name="lab_1trys" Content="Noch 1 mal Würfeln" VerticalAlignment="bottom" HorizontalAlignment="center" FontSize="15" Margin="0,19,0,0" Visibility="Hidden"/>
+                                                </Grid>
+                                            </Border>
+                                        </Grid>
+                                    </Grid>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Background="#752e06" Width="300" Height="450" HorizontalAlignment="left">
+            <Label x:Name="lab_scoreplayer1" Content="Player-1 Score:" FontSize="27" Width="200" Height="45" HorizontalAlignment="left" VerticalAlignment="Top"/>
+            <Label x:Name="lab_scoreplayer2" Content="Player-2 Score:" FontSize="27" Width="200" Height="45" HorizontalAlignment="left" VerticalAlignment="Top" Margin="0,050,0,0"/>
+        </Grid>
+    </Grid>
+</Window>

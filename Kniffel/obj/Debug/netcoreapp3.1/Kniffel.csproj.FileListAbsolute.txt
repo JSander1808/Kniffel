@@ -1,0 +1,80 @@
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.exe
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.deps.json
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.runtimeconfig.json
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.runtimeconfig.dev.json
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.dll
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.pdb
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel_MarkupCompile.cache
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel_MarkupCompile.lref
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.g.resources
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.AssemblyInfoInputs.cache
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.AssemblyInfo.cs
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.csproj.CoreCompileInputs.cache
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.dll
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.pdb
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.genruntimeconfig.cache
+D:\Dokumente\Development\Visual Studios\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.csproj.AssemblyReference.cache
+D:\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.exe
+D:\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.deps.json
+D:\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.runtimeconfig.json
+D:\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.runtimeconfig.dev.json
+D:\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.dll
+D:\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.pdb
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.csproj.AssemblyReference.cache
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel_MarkupCompile.cache
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel_MarkupCompile.lref
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.g.resources
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.AssemblyInfoInputs.cache
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.AssemblyInfo.cs
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.csproj.CoreCompileInputs.cache
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.dll
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.pdb
+D:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.genruntimeconfig.cache
+E:\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.exe
+E:\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.deps.json
+E:\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.runtimeconfig.json
+E:\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.runtimeconfig.dev.json
+E:\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.dll
+E:\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.pdb
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.csproj.AssemblyReference.cache
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\App.g.cs
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel_MarkupCompile.cache
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel_MarkupCompile.lref
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\MainWindow.baml
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.g.resources
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.GeneratedMSBuildEditorConfig.editorconfig
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.AssemblyInfoInputs.cache
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.AssemblyInfo.cs
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.csproj.CoreCompileInputs.cache
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.dll
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.pdb
+E:\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.genruntimeconfig.cache
+E:\temp\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.exe
+E:\temp\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.deps.json
+E:\temp\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.runtimeconfig.json
+E:\temp\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.runtimeconfig.dev.json
+E:\temp\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.dll
+E:\temp\Kniffel\Kniffel\bin\Debug\netcoreapp3.1\Kniffel.pdb
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.csproj.AssemblyReference.cache
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\App.g.cs
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel_MarkupCompile.cache
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel_MarkupCompile.lref
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\MainWindow.baml
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.g.resources
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.GeneratedMSBuildEditorConfig.editorconfig
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.AssemblyInfoInputs.cache
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.AssemblyInfo.cs
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.csproj.CoreCompileInputs.cache
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.dll
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.pdb
+E:\temp\Kniffel\Kniffel\obj\Debug\netcoreapp3.1\Kniffel.genruntimeconfig.cache
